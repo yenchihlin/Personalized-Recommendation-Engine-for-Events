@@ -1,0 +1,19 @@
+package laiofferl;
+
+import java.util.ArrayList;
+
+public class GenericTypeErasure {
+	public static void main(String[] arg) {
+		ArrayList<Integer> a1 = new ArrayList<>();
+		ArrayList<String> a2 = new ArrayList<>();
+		Class c1 = a1.getClass();
+		Class c2 = a2.getClass();
+		System.out.println(c1 == c2);
+		System.out.println(c1);
+		try {
+			a1.getClass().getMethod("add", Object.class).invok(a1, "a");
+		}
+		
+		
+	}
+}

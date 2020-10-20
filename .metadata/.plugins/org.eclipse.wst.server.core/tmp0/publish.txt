@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Mon Nov 04 21:01:33 PST 2019
+org.eclipse.jst.j2ee.server\:onlineShop=/Users/yenchihlin/eclipse-workspace/apache-tomcat-9.0.26/wtpwebapps/onlineShop
+org.eclipse.jst.j2ee.server\:/binary\:/Users/yenchihlin/.m2/repository/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar=/Users/yenchihlin/eclipse-workspace/apache-tomcat-9.0.26/wtpwebapps/onlineShop/WEB-INF/lib/spring-web-5.0.4.RELEASE.jar
+org.eclipse.jst.jee.server\:Jupiter=/Users/yenchihlin/eclipse-workspace/apache-tomcat-9.0.26/wtpwebapps/Jupiter
